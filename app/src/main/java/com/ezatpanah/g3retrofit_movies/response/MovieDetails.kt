@@ -1,4 +1,4 @@
-package com.ezatpanah.retrofit_youtube.response
+package com.ezatpanah.g3retrofit_movies.response
 
 
 import com.google.gson.annotations.SerializedName
@@ -7,9 +7,9 @@ data class MovieDetails(
     @SerializedName("adult")
     val adult: Boolean, // false
     @SerializedName("backdrop_path")
-    val backdropPath: String, // /rr7E0NoGKxvbkb89eR1GwfoYjpA.jpg
+    val backdropPath: String, // /imagen_backdrop.jpg
     @SerializedName("belongs_to_collection")
-    val belongsToCollection: Any, // null
+    val belongsToCollection: Any,
     @SerializedName("budget")
     val budget: Int, // 63000000
     @SerializedName("genres")
@@ -19,23 +19,23 @@ data class MovieDetails(
     @SerializedName("id")
     val id: Int, // 550
     @SerializedName("imdb_id")
-    val imdbId: String, // tt0137523
+    val imdbId: String, // tt0137523 - Clasificación dentro del imdb
     @SerializedName("original_language")
-    val originalLanguage: String, // en
+    val originalLanguage: String, // en - Idioma
     @SerializedName("original_title")
-    val originalTitle: String, // Fight Club
+    val originalTitle: String, // Fight Club - Título de la película
     @SerializedName("overview")
-    val overview: String, // A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground "fight clubs" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.
+    val overview: String, // Ejemplo de texto a rellenar en el Overview.
     @SerializedName("popularity")
     val popularity: Double, // 49.547
     @SerializedName("poster_path")
-    val posterPath: String, // /pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg
+    val posterPath: String, // /codigo_de_imagen.jpg
     @SerializedName("production_companies")
     val productionCompanies: List<ProductionCompany>,
     @SerializedName("production_countries")
     val productionCountries: List<ProductionCountry>,
     @SerializedName("release_date")
-    val releaseDate: String, // 1999-10-15
+    val releaseDate: String, // 1999-10-15 - Fecha de Estreno
     @SerializedName("revenue")
     val revenue: Int, // 100853753
     @SerializedName("runtime")
@@ -43,49 +43,49 @@ data class MovieDetails(
     @SerializedName("spoken_languages")
     val spokenLanguages: List<SpokenLanguage>,
     @SerializedName("status")
-    val status: String, // Released
+    val status: String, // Released - Estado
     @SerializedName("tagline")
-    val tagline: String, // Mischief. Mayhem. Soap.
+    val tagline: String,
     @SerializedName("title")
-    val title: String, // Fight Club
+    val title: String, // Fight Club - Título
     @SerializedName("video")
     val video: Boolean, // false
     @SerializedName("vote_average")
-    val voteAverage: Double, // 8.4
+    val voteAverage: Double, // 8.4 - Porcentaje
     @SerializedName("vote_count")
-    val voteCount: Int // 24337
+    val voteCount: Int // 24337 - Cantidad de Votos
 ) {
     data class Genre(
         @SerializedName("id")
-        val id: Int, // 18
+        val id: Int, // 18 - Genero
         @SerializedName("name")
-        val name: String // Drama
+        val name: String // Drama - Categoría
     )
 
     data class ProductionCompany(
         @SerializedName("id")
         val id: Int, // 508
         @SerializedName("logo_path")
-        val logoPath: String, // /7PzJdsLGlR7oW4J0J5Xcd0pHGRg.png
+        val logoPath: String, // /logo_ejemplo.png
         @SerializedName("name")
-        val name: String, // Regency Enterprises
+        val name: String,
         @SerializedName("origin_country")
-        val originCountry: String // US
+        val originCountry: String // US - País originario
     )
 
     data class ProductionCountry(
         @SerializedName("iso_3166_1")
-        val iso31661: String, // DE
+        val iso31661: String,
         @SerializedName("name")
-        val name: String // Germany
+        val name: String
     )
 
     data class SpokenLanguage(
         @SerializedName("english_name")
-        val englishName: String, // English
+        val englishName: String, // Idioma Inglés
         @SerializedName("iso_639_1")
-        val iso6391: String, // en
+        val iso6391: String, // en - Inglés
         @SerializedName("name")
-        val name: String // English
+        val name: String // Inglés
     )
 }

@@ -1,4 +1,4 @@
-package com.ezatpanah.retrofit_youtube.adapter
+package com.ezatpanah.g3retrofit_movies.adapter
 
 
 import android.annotation.SuppressLint
@@ -11,11 +11,11 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import coil.size.Scale
-import com.ezatpanah.retrofit_youtube.R
-import com.ezatpanah.retrofit_youtube.ui.MovieDetailesActivity
-import com.ezatpanah.retrofit_youtube.databinding.ItemMoviesBinding
-import com.ezatpanah.retrofit_youtube.response.MoviesListResponse
-import com.ezatpanah.retrofit_youtube.utils.Constants.POSTER_BASE_URL
+import com.ezatpanah.g3retrofit_movies.R
+import com.ezatpanah.g3retrofit_movies.ui.MovieDetailesActivity
+import com.ezatpanah.g3retrofit_movies.databinding.ItemMoviesBinding
+import com.ezatpanah.g3retrofit_movies.response.MoviesListResponse
+import com.ezatpanah.g3retrofit_movies.utils.Constants.POSTER_BASE_URL
 
 class MoviesAdapter : RecyclerView.Adapter<MoviesAdapter.ViewHolder>() {
 

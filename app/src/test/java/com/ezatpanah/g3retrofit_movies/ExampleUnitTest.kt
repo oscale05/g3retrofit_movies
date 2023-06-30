@@ -1,4 +1,4 @@
-package com.ezatpanah.retrofit_youtube
+package com.ezatpanah.g3retrofit_movies
 
 import org.junit.Test
 

@@ -1,7 +1,7 @@
-package com.ezatpanah.retrofit_youtube.api
+package com.ezatpanah.g3retrofit_movies.api
 
-import com.ezatpanah.retrofit_youtube.utils.Constants.API_KEY
-import com.ezatpanah.retrofit_youtube.utils.Constants.BASE_URL
+import com.ezatpanah.g3retrofit_movies.utils.Constants.API_KEY
+import com.ezatpanah.g3retrofit_movies.utils.Constants.BASE_URL
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit

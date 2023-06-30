@@ -1,4 +1,4 @@
-package com.ezatpanah.retrofit_youtube.ui
+package com.ezatpanah.g3retrofit_movies.ui
 
 import android.os.Bundle
 import android.util.Log
@@ -6,12 +6,12 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import coil.load
 import coil.size.Scale
-import com.ezatpanah.retrofit_youtube.R
-import com.ezatpanah.retrofit_youtube.api.ApiClient
-import com.ezatpanah.retrofit_youtube.api.ApiServices
-import com.ezatpanah.retrofit_youtube.databinding.ActivityMovieDetailesBinding
-import com.ezatpanah.retrofit_youtube.response.MovieDetails
-import com.ezatpanah.retrofit_youtube.utils.Constants.POSTER_BASE_URL
+import com.ezatpanah.g3retrofit_movies.R
+import com.ezatpanah.g3retrofit_movies.api.ApiClient
+import com.ezatpanah.g3retrofit_movies.api.ApiServices
+import com.ezatpanah.g3retrofit_movies.databinding.ActivityMovieDetailesBinding
+import com.ezatpanah.g3retrofit_movies.response.MovieDetails
+import com.ezatpanah.g3retrofit_movies.utils.Constants.POSTER_BASE_URL
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

@@ -1,15 +1,15 @@
-package com.ezatpanah.retrofit_youtube.ui
+package com.ezatpanah.g3retrofit_movies.ui
 
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.ezatpanah.retrofit_youtube.adapter.MoviesAdapter
-import com.ezatpanah.retrofit_youtube.api.ApiClient
-import com.ezatpanah.retrofit_youtube.api.ApiServices
-import com.ezatpanah.retrofit_youtube.databinding.ActivityMainBinding
-import com.ezatpanah.retrofit_youtube.response.MoviesListResponse
+import com.ezatpanah.g3retrofit_movies.adapter.MoviesAdapter
+import com.ezatpanah.g3retrofit_movies.api.ApiClient
+import com.ezatpanah.g3retrofit_movies.api.ApiServices
+import com.ezatpanah.g3retrofit_movies.databinding.ActivityMainBinding
+import com.ezatpanah.g3retrofit_movies.response.MoviesListResponse
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
